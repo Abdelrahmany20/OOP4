@@ -107,13 +107,34 @@ namespace OOP4
             #endregion
 
 
+
+
+            #region Part 1
+
+           /*
+         
+            1-b
+            2-a
+            3-b (contract)
+            4-b
+            5-d
+            6-a (C# 8)
+            7-b
+            8-c
+            9b
+            10-c
+         
+
+
+            */  
+            #endregion
             #endregion
 
 
 
-           
 
-            
+
+
         }
     }
 }
