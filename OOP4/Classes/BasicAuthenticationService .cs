@@ -1,14 +1,15 @@
-﻿using System;
+﻿using OOP4.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP4.Interfaces.Classes
+namespace OOP4.Classes
 {
     internal class BasicAuthenticationService : IAuthenticationService
     {
-        public bool AuthenticateUser(string UserName,string PW)
+        public bool AuthenticateUser(string UserName, string PW)
         {
             if (UserName == "Alex" && PW == "123")
             {
@@ -27,12 +28,12 @@ namespace OOP4.Interfaces.Classes
 
         public bool AuthorizeUser(string UserName, string Role)
         {
-           if(UserName == "Alex" && Role == "Alex")
+            if (UserName == "Alex" && Role == "Alex")
             {
                 return true;
             }
-           return false;
-                
+            return false;
+
         }
 
         public bool AuthorizeUser()
